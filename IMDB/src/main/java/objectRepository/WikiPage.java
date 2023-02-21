@@ -13,7 +13,7 @@ public class WikiPage {
 	@FindBy(xpath = "//input[@id='searchInput']")
 	private WebElement textBox;
 	
-	@FindBy(xpath = "//button[.='Search']")        ////input[@id='searchButton']
+	@FindBy(xpath = "//button[.='Search']")        
 	private WebElement searchBtn;
 	
 	@FindBy(xpath = "//div[.='Release date']/ancestor::tr/descendant::li")
